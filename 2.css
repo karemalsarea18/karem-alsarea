@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+background-color: rgb(255, 254, 254);
+padding-right: 7px;
+
+}
+h2{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 40px;
+    color: rgb(255, 208, 0);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+    list-style:none ;
+    }
+    .hd{
+  width: 100%;
+
+    }
+    .hd ul {
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    background-image:url(ee.png) ;
+
+
+    
+    }
+    .hd   ul li{
+        margin-right: 20px ;
+        margin-top: 3px;
+        font-size: 19px;
+        overflow: hidden;
+    }
+    .hd  ul li a{
+        padding: 10px 15px;
+       border-radius: 8px;
+        
+    }
+    .hd   ul li a:hover,.active{
+        background:rgb(255, 208, 0);
+        color: rgb(34, 32, 41);
+        
+        }
+
+.ll{
+    justify-content: center;
+    align-items: center;
+   justify-content:space-between;
+   padding: 10px;
+   margin: 20px;
+   color: #000;
+}
+
+.ll h2{
+    margin-left: 15cm;
+    color: #000;
+}
+
+.to{
+   
+  
+    justify-content: center;
+    align-items: center;
+   justify-content:flex-end;
+width: 100%;
+height: 170px;
+background-color: rgb(255, 208, 0);
+}
+.to h3{
+
+display: block;
+margin-right :30px;
+
+
+}
+
+.to h5 {
+    padding: 10px;
+    display: flex;
+
+    margin-left: 13cm;
+    
+    }
+
+.wa{ 
+    margin:10px 10px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+ background-image:url(wa.jpg) ;
+ color: rgb(255, 255, 255);
+}
+.fa{ 
+    padding: 10px 10px;
+    width: 65px;
+    height: 65px;
+    border-radius: 500px;
+ background-image:url(fe.jpg) ;
+ color: rgb(255, 255, 255);
+}
+.in{ 
+    margin:10px 10px;
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+ background-image:url(in.jpg) ;
+ color: rgb(255, 255, 255);
+}
+.tw{ 
+    margin:10px 10px;
+
+    padding: 10px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+ background-image:url(tw.jpg) ;
+ color: rgb(255, 255, 255);
+}
+.yo{ 
+    margin:10px 10px;
+    padding: 10px 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+ background-image:url(yo.jpg) ;
+ color: rgb(255, 255, 255);
+
+}
+.xz {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+ width: 98%;
+ height: 100px;
+background-color: rgb(24, 24, 24);
+
+
+}
+.xz .s h2{
+    color: rgb(255, 208, 0);
+}
+
+.tx{
+    
+  padding: 1cm ;
+  margin-right: 10px;
+}
+.asw{
+
+    color: rgb(224, 200, 59);
+}
+.tx a{
+
+
+    color: rgb(250, 212, 0);
+}

@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
 }
+
+    
+
 body{
-background-color: rgb(235, 235, 235);
+    width: 98;
+background-color: rgb(255, 255, 255);
 padding-right: 7px;
 
 }
+
 h2{
     display: flex;
     justify-content: space-between;
@@ -23,7 +28,7 @@ a{
   width: 100%;
 
     }
-    .hd ul {
+    ul {
 
         display: flex;
     justify-content: center;
@@ -35,34 +40,31 @@ a{
 
     
     }
-    .hd   ul li{
+     ul li{
         margin-right: 20px ;
         margin-top: 3px;
         font-size: 19px;
         overflow: hidden;
     }
-    .hd  ul li a{
+    ul li a{
         padding: 10px 15px;
        border-radius: 8px;
         
     }
-    .hd   ul li a:hover,.active{
+    ul li a:hover,.active{
         background:rgb(255, 208, 0);
         color: rgb(34, 32, 41);
         
         }
 
-
-
-
 .ca{
 width: 98%;
 height:50px;
-
+display: block;
 
 }
 .im{
-width: 100vh;
+width: 99%;
  
 }
 .ad{
@@ -71,7 +73,7 @@ width: 100vh;
   margin-bottom: 5cm;
  margin-right: 5cm;
 font-size: 30px;
-color: rgba(255, 255, 255, 0.719);
+color: rgb(255, 255, 255);
 block-size: auto;
 overflow: hidden;
 }
@@ -147,22 +149,15 @@ border-radius: 5px;
         height: 40px;
         border-radius: 5px;
         overflow: hidden;
+    margin-right:16cm ;
     }
     .rr {
-padding-top:  6cm;
+padding: 10px;
         display:flex;
         justify-content: space-between;
         overflow: hidden;
         background-color: rgba(187, 187, 187, 0.295);
         width: 98%;
-        height: 700px;
-    }
-    .rr .so{
-
-width: 50%;
-
-height: 50%;
-margin-left: 5cm;
     }
     .rr input{
         overflow: hidden;
@@ -172,6 +167,9 @@ margin: 10px 5px;
 border-radius: 10px;
 
     }
+   
+
+    
    input.saw{
 
         background-color:  rgb(85, 85, 85);
@@ -182,7 +180,6 @@ border-radius: 10px;
         width: 80px;
         height: 40px;
         overflow: hidden;
-        
 
     }
     input.add{
@@ -190,13 +187,12 @@ font-size: 15px;
         width: 10cm;
         height: 2cm;
         margin-left: 3cm;
-        overflow: hidden;margin-bottom: 4cm;
+        overflow: hidden;
     }
     .rr img{
         padding: 15px;
         margin-top: 1.5cm;
-        margin-left: 5cm;
-
+        margin-left: 3cm;
             }
 
 
@@ -250,6 +246,7 @@ color: rgb(255, 255, 255);
 background-color: rgb(56, 56, 56);
 border-radius: 100px;
 margin-top: 10px;
+font-size: 20px;
 
 }
 .body h2:hover{
@@ -269,12 +266,11 @@ margin-top: 10px;
     width: 80px;
     height: 40px;
     border-radius: 5px;
-    
+ margin-bottom: 20px;
     margin-right: 16cm;
 }
 .to{
    
-  
     justify-content: center;
     align-items: center;
    justify-content:flex-end;
@@ -286,7 +282,6 @@ background-color: rgb(255, 208, 0);
 
 display: block;
 margin-right :30px;
-
 
 }
 
@@ -345,36 +340,7 @@ margin-right :30px;
  color: rgb(255, 255, 255);
 
 }
-.xz {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
- width: 98%;
- height: 200px;
-background-color: rgb(24, 24, 24);
-
-
-}
-.xz .s h2{
-    color: rgb(255, 208, 0);
-}
-
-.tx{
-    
-  padding: 1cm ;
-  margin-right: 10px;
-}
-.asw{
-
-    color: rgb(224, 200, 59);
-}
-.tx a{
-
-
-    color: rgb(250, 212, 0);
-}
 @media   (max-width:1000px ){
 
     .body{

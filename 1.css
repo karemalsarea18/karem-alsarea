@@ -349,10 +349,16 @@ margin-right :30px;
 margin-left: 5cm;
 
     }
+    .hd{
+
+
+        
+
+    }
     ul{
     
    flex-direction:column;
-   justify-content:end;
+   justify-content:flex-start;
    margin:auto;
    font-size: 18px;
    
@@ -361,7 +367,7 @@ margin-left: 5cm;
    .ca{
        width: 98%;
        height:50px;
-       display: block;
+       display: none;
        
        }
        .im{

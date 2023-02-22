@@ -208,11 +208,8 @@ margin-right: 1cm;
 
         
       }
-      .nb   {
-        flex-direction:column;
-        justify-content: center;
-        margin-bottom: 2cm;
-      
+      .table {
+      display: none;
       }
       
       a button.as{
